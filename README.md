@@ -81,3 +81,25 @@ Run the inference script to test the classifier on your webcam. Press **'q'** to
 ```bash
 python real_time_inference.py
 ```
+
+## 🐳 Docker Support
+
+You can also run the Live Recognition application in a Docker container.
+
+### Prerequisites (macOS)
+On macOS, you need **XQuartz** to allow the container to display the GUI window.
+1. Install XQuartz: `brew install --cask xquartz`
+2. Open XQuartz, go to **Preferences > Security**, and check **"Allow connections from network clients"**.
+3. Restart XQuartz (or log out and back in).
+4. In your terminal, run: `xhost +localhost`
+
+### Running with Docker Compose (Recommended)
+Simply run:
+```bash
+docker-compose up
+```
+
+### Building Manually
+```bash
+docker build -t asl-recognition .
+```

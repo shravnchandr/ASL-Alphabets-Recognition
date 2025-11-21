@@ -1,0 +1,8 @@
+Dataset/
+Data Processing.py
+Model Training.py
+.git/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
