@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+venv/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-log.txt
+
+# Unit test / coverage
+.tox/
+.coverage
+.cache
+htmlcov/
+.pytest_cache/
+nosetests.xml
+
+# Editors/IDE settings and temporary files
+# Note: You might want to remove some of these if you use a team-wide standard
+.idea/             # JetBrains (PyCharm, IntelliJ) settings
+*.swp              # Vim swap files
+*~                 # Vim backup files
+.vscode/           # VS Code settings
+.DS_Store          # macOS files
+Thumbs.db          # Windows thumbnail cache
+
+# Virtual Environment
+# Most commonly used virtual environment names
+venv
+env
+.venv
+.python-version
+
+# Runtime / Secret files
+.env               # Environment variable files (often contains secrets)
+*.ini              # Configuration files (if they contain secrets)
+*.key
+*.pem
+
+# Data files
+# If you don't want large data files committed
+# *.csv
+# *.txt
+# *.log
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# Dataset Folder
+Dataset/
