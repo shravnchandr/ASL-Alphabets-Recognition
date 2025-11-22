@@ -85,10 +85,6 @@ class ASLClassifier(nn.Module):
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = ASLClassifier(INPUT_SIZE, NUM_CLASSES).to(device)
 print(f"Using device: {device}")
-# 
-
-[Image of a simple neural network diagram showing input, hidden layers, and output]
-
 
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE)
